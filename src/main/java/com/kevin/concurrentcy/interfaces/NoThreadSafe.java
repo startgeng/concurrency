@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * @version 1.0
  * @date 2021-05-04 3:08
  */
-@Target(value = ElementType.METHOD)
+@Target(value = ElementType.TYPE)
 @Retention(value = RetentionPolicy.SOURCE)
 public @interface NoThreadSafe {
 
